@@ -4,7 +4,9 @@
       "WebFetch(domain:jitpack.io)",
       "Bash(./gradlew assembleDebug:*)",
       "Bash(chmod:*)",
-      "Bash(/Users/Apple/Downloads/NewMidX/gradlew:*)"
+      "Bash(/Users/Apple/Downloads/NewMidX/gradlew:*)",
+      "Bash(unzip:*)",
+      "Bash(javap:*)"
     ]
   }
 }

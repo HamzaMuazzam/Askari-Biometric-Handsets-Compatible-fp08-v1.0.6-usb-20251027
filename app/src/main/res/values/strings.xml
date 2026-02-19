@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">NewMidX</string>
-
     <string name="fp">Fingerprint</string>
     <string name="qrbarcode">QR Barcode</string>
     <string name="iris">Iris</string>
@@ -52,4 +50,29 @@
     <string name="stranger">stranger</string>
     <string name="no_user">no user</string>
     <string name="hello">hello</string>
+
+
+    <string name="app_name">Askari Biometric</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="btn_match" translatable="false">Match</string>
+
+
+    <string name="btn_enrol" translatable="false">Enrol</string>
+    <string name="btn_capture" translatable="false">Capure</string>
+
+    <string name="rd_text1" translatable="false">ANSI378-2004</string>
+    <string name="rd_text2" translatable="false">ISO19794-2005</string>
+    <string name="rd_text3" translatable="false">Default</string>
+
+    <string name="action_dir0" translatable="false">Default</string>
+    <string name="action_dir1" translatable="false">Mirror Vertically </string>
+    <string name="action_dir2" translatable="false">Mirror Horizontally</string>
+    <string name="action_dir3" translatable="false">Rotate 180</string>
+
+    <string name="action_test" translatable="false">Match Test</string>
+
+
+
+    <string name="tv_ready" translatable="false"></string>
+    <string name="tv_null" translatable="false"></string>
 </resources>
