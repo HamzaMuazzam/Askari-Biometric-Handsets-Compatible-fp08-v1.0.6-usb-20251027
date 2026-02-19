@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context=".ui.activity.DeviceUpdateActivity">
+
+    <com.dawn.java.ui.widget.TopToolbar
+        android:id="@+id/tb_topToolBar"
+        android:layout_width="match_parent"
+        app:mainTitle="@string/menu_item_debug_update"
+        android:layout_height="wrap_content"
+        app:srcLeftIcon="@drawable/icon_return" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/tv_fw_path_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/update_choose_fw_first"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_select_fw1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_choose_file" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/tv_fw_path_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/update_choose_fw_first"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_select_fw2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_choose_file" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/update_cur_version"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tv_curr_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_unknown_version"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/selector_btn_blue"
+        android:text="@string/debug_start_test"
+        android:textAllCaps="false"
+        android:textSize="32dp" />
+    <!--<Button-->
+    <!--android:enabled="false"-->
+    <!--android:id="@+id/btn_stop_update"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:background="@drawable/btn_selector"-->
+    <!--android:text="Stop Testing"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textSize="32dp" />-->
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">NewMidX</string>
+
+    <string name="fp">Fingerprint</string>
+    <string name="qrbarcode">QR Barcode</string>
+    <string name="iris">Iris</string>
+    <string name="rfid">RFID</string>
+    <string name="face">Face-Recognition</string>
+
+
+    <string name="temp_type">template type</string>
+    <string name="user_name">user name</string>
+
+    <string name="enroll">enroll</string>
+    <string name="verify">verify</string>
+    <string name="search">search</string>
+    <string name="db">db show</string>
+    <string name="remove">remove</string>
+    <string name="clear">clear</string>
+    <string name="capture">capture</string>
+    <string name="export_img">export image</string>
+    <string name="export_template">export template</string>
+
+    <string name="own_db">I HAVE MY OWN DB</string>
+    <string name="sdk_db">USE SDK DB</string>
+    <string name="please_press_finger">please press finger...</string>
+
+    <string name="item_scanner">Tty Scanner</string>
+    <string name="scan_open">Open</string>
+    <string name="scan_close">Close</string>
+    <string name="scan_trigger">Trigger</string>
+    <string name="scan_open_success">Connect Success</string>
+    <string name="scan_open_fail">Connect Fail</string>
+    <string name="scan_state">Scanner Status : %s</string>
+
+    <string name="item_rfid">RFID</string>
+    <string name="rfid_open">Open</string>
+    <string name="rfid_close">Close</string>
+    <string name="rfid_search_start">Start Search</string>
+    <string name="rfid_search_stop">Stop Search</string>
+    <string name="id">ID</string>
+    <string name="count">count</string>
+    <string name="uhf_state">Uhf Status : %s</string>
+    <string name="uhf_rom_version">Uhf version : %s</string>
+    <string name="uhf_state_connected">Connected</string>
+    <string name="uhf_state_disconnected">Disconnected</string>
+
+    <string name="identifying">identifying...</string>
+    <string name="success">success</string>
+    <string name="failed">failed</string>
+    <string name="loading">loading</string>
+    <string name="stranger">stranger</string>
+    <string name="no_user">no user</string>
+    <string name="hello">hello</string>
+</resources>

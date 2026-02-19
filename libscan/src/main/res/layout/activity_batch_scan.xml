@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dawn.java.ui.activity.BatchScanActivity">
+
+    <com.dawn.java.ui.widget.TopToolbar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mainTitle="@string/menu_item_batch_scan"
+        app:srcLeftIcon="@drawable/icon_return"
+        app:srcRightIcon="@drawable/icon_delete" />
+
+    <ListView
+        android:id="@+id/lv_scan_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:transcriptMode="alwaysScroll" />
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="10dp">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical">-->
+    <!--<CheckBox-->
+    <!--android:id="@+id/cb_continuous"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@+id/cb_music"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:checked="false"-->
+    <!--android:text="@string/debug_camera_continuous" />-->
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/cb_music"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:checked="false"-->
+    <!--android:text="@string/common_camera_sound_on" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/fab_start_pause"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="right"-->
+    <!--app:srcCompat="@drawable/ic_media_play" />-->
+    <!--</LinearLayout>-->
+
+    <CheckBox
+        android:id="@+id/cb_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:checked="false"
+        android:text="@string/common_camera_sound_on" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:background="@drawable/selector_btn_blue"
+        android:text="@string/common_scan" />
+</LinearLayout>

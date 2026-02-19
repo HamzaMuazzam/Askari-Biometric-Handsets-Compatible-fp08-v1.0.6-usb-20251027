@@ -1,0 +1,93 @@
+<resources>
+
+
+    <!--common-->
+    <string name="common_type">Type</string>
+    <string name="common_time">Time</string>
+    <string name="common_length">Length</string>
+    <string name="common_open">On</string>
+    <string name="common_close">Off</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_save_success">Save Success</string>
+    <string name="common_count">Count</string>
+    <string name="common_camera_sound_on">Sound On</string>
+    <string name="common_save_error_img">Save Error Image</string>
+    <string name="common_title">Title</string>
+    <string name="common_delay">Delay</string>
+    <string name="common_scan">Scan</string>
+    <string name="common_enable_center_decoding">Enable Center Decoding </string>
+    <string name="common_disable_center_decoding">Disable Center Decoding </string>
+    <string name="common_center_decoding_calibration">Center Decoding Calibration</string>
+
+
+    <!--Dialog-->
+    <string name="dialog_is_clear_scan_result">Clear scan results?</string>
+    <string name="dialog_clear_result_complete">Clear complete</string>
+    <string name="dialog_please_enter_completely">Please enter completely</string>
+    <string name="dialog_is_delete_this_item">Delete this test item?</string>
+    <string name="dialog_delete_complete">Delete complete</string>
+    <string name="dialog_please_wait">Please wait</string>
+
+    <!--update-->
+    <string name="update_unknown_version">Unknown version</string>
+    <string name="update_choose_fw_first">Please select a firmware file</string>
+    <string name="update_failure">Upgrade failure</string>
+    <string name="update_success">Upgrade success</string>
+    <string name="update_stop">Stop Upgrade</string>
+    <string name="update_upgrading">Upgrading</string>
+    <string name="update_wait_update_finish">Please wait for upgrade finish...</string>
+    <string name="update_choose_file">Choose file</string>
+    <string name="update_cur_version">Current version</string>
+    <string name="update_version_fail">The firmware file does not match the module</string>
+
+
+    <!--code-->
+    <string name="set_code_1d">1D Code</string>
+    <string name="set_code_2d">2D Code</string>
+    <string name="set_code_ocr">OCR</string>
+    <string name="set_code_other">Others</string>
+
+    <string name="code_enable">Enable</string>
+
+
+    <!--debug-->
+    <string name="debug_camera_continuous">Continuous scan</string>
+    <string name="debug_first_scan_result">First scan result</string>
+    <string name="debug_cur_scan_result">Current scan result</string>
+    <string name="debug_add_test_item">Add a test item</string>
+    <string name="debug_start_test">Start testing</string>
+
+    <string name="debug_scan_error">Error": </string>
+    <string name="debug_scan_miss">Miss: </string>
+    <string name="debug_scan_spacing">Scan interval: </string>
+    <string name="debug_scan_count">Scan count: </string>
+    <string name="debug_scan_test_time">Test time: </string>
+    <string name="debug_set_test_time">Set test time: </string>
+
+    <!--menu-->
+    <string name="menu_group_function">Function</string>
+    <string name="menu_group_setting">Setting</string>
+    <string name="menu_group_debug">Debug</string>
+    <string name="menu_item_batch_scan">Batch scan</string>
+    <string name="menu_item_last_image">Last decoded picture</string>
+    <string name="menu_item_debug_continue_scan">Continue scan test</string>
+    <string name="menu_item_debug_accuracy_scan">Accuracy test</string>
+    <string name="menu_item_debug_auto_scan">Automated test</string>
+    <string name="menu_item_debug_update">Upgrade test</string>
+    <string name="menu_item_sensor_update">Firmware upgrade</string>
+    <string name="menu_item_code_set">Code setting</string>
+    <string name="menu_item_version_show">Firmware version</string>
+    <string name="menu_item_image">Image</string>
+    <string name="menu_item_center_scan_setting">Center Decoding Setting</string>
+    <string name="menu_item_illumination_setting">Illumination Setting</string>
+    <string name="menu_item_illumination_enable">Illumination Enable</string>
+    <string name="menu_item_effect_enable">Effect Enable</string>
+    <string name="menu_item_highlight_setting">HighLight Setting</string>
+    <string name="menu_item_highlight_enable">HighLight Enable</string>
+
+    <string name="init_prog_title">Please wait</string>
+    <string name="init_prog_start">Initializing</string>
+    <string name="init_prog_fw_upgrade">Upgrade firmware</string>
+
+</resources>

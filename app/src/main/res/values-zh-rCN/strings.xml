@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">NewMidX</string>
+
+    <string name="fp">指纹</string>
+    <string name="qrbarcode">条码/二维码</string>
+    <string name="iris">虹膜</string>
+    <string name="rfid">RFID</string>
+    <string name="face">人脸识别</string>
+
+    <string name="temp_type">特征类型</string>
+    <string name="user_name">用户名称</string>
+
+    <string name="enroll">注册</string>
+    <string name="verify">认证</string>
+    <string name="search">搜索</string>
+    <string name="db">展示数据</string>
+    <string name="remove">移除</string>
+    <string name="clear">清空</string>
+    <string name="capture">采集</string>
+    <string name="export_img">导出图像</string>
+    <string name="export_template">导出特征</string>
+
+    <string name="own_db">我有自己的数据库</string>
+    <string name="sdk_db">使用SDK的数据库</string>
+    <string name="please_press_finger">请按手指...</string>
+
+    <string name="item_scanner">串口扫描头</string>
+    <string name="scan_open">打开</string>
+    <string name="scan_close">关闭</string>
+    <string name="scan_trigger">触发</string>
+    <string name="scan_open_success">打开成功</string>
+    <string name="scan_open_fail">打开失败</string>
+    <string name="scan_state">扫描头状态 : %s</string>
+
+    <string name="item_rfid">RFID</string>
+    <string name="rfid_open">打卡</string>
+    <string name="rfid_close">关闭</string>
+    <string name="rfid_search_start">开始搜索</string>
+    <string name="rfid_search_stop">停止搜索</string>
+    <string name="id">ID</string>
+    <string name="count">count</string>
+    <string name="uhf_state">超高频模块状态 : %s</string>
+    <string name="uhf_rom_version">超高频模块软件版本: %s</string>
+    <string name="uhf_state_connected">连接成功</string>
+    <string name="uhf_state_disconnected">连接失败</string>
+
+    <string name="identifying">识别中...</string>
+    <string name="success">成功</string>
+    <string name="failed">失败</string>
+    <string name="loading">加载中</string>
+    <string name="stranger">陌生人</string>
+    <string name="no_user">没有用户</string>
+    <string name="hello">你好</string>
+</resources>

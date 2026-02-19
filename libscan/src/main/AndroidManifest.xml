@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dawn.decoderapijni">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application>
+        <activity android:name="com.dawn.java.ui.activity.CenterScanSettingActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.VersionShowActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.ImageShowActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.BatchScanActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.DebugAutoScanActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.DebugAccuracyActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.DebugUpdateActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.DeviceUpdateActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.DebugScanActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.PropValueSetActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.ParamSetActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.CodeSetActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.IlluminationSettingActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.activity.HighLightSettingActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.homePage.HomeActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.dawn.java.ui.welcomePage.WelcomeActivity"
+            android:theme="@style/Theme.HideApp"
+            android:screenOrientation="landscape"/>
+    </application>
+</manifest>

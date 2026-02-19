@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:jitpack.io)",
+      "Bash(./gradlew assembleDebug:*)",
+      "Bash(chmod:*)",
+      "Bash(/Users/Apple/Downloads/NewMidX/gradlew:*)"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <com.dawn.java.ui.widget.TopToolbar
+        android:id="@+id/topBar"
+        app:mainTitle="@string/menu_item_code_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcLeftIcon="@drawable/icon_return">
+    </com.dawn.java.ui.widget.TopToolbar>
+
+
+    <RadioGroup
+        android:id="@+id/rg_code_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/rd_code_1d"
+            android:layout_width="@dimen/set_code_radio_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_pager_title_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/set_code_1d"
+            android:textColor="@drawable/selector_pager_title_text_color"/>
+
+        <RadioButton
+            android:id="@+id/rd_code_2d"
+            android:layout_width="@dimen/set_code_radio_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_pager_title_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/set_code_2d"
+            android:textColor="@drawable/selector_pager_title_text_color"/>
+
+        <RadioButton
+            android:id="@+id/rd_code_ocr"
+            android:layout_width="@dimen/set_code_radio_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_pager_title_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/set_code_ocr"
+            android:textColor="@drawable/selector_pager_title_text_color"/>
+
+        <RadioButton
+            android:id="@+id/rd_code_other"
+            android:layout_width="@dimen/set_code_radio_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_pager_title_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/set_code_other"
+            android:textColor="@drawable/selector_pager_title_text_color"/>
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_gray" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@color/white"-->
+    <!--android:text="Hello World!" />-->
+
+</LinearLayout>

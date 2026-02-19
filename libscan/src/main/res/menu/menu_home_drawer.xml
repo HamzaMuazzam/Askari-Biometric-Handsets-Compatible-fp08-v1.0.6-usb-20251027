@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/menu_group_function">
+        <menu>
+            <item
+                android:id="@+id/nav_last_image"
+                android:icon="@drawable/icon_image"
+                android:title="@string/menu_item_last_image" />
+            <item
+                android:id="@+id/nav_batch_scan"
+                android:icon="@drawable/icon_batch"
+                android:title="@string/menu_item_batch_scan" />
+        </menu>
+    </item>
+    <item android:title="@string/menu_group_setting">
+        <menu>
+            <item
+                android:id="@+id/nav_code_setting"
+                android:icon="@drawable/ic_menu_code_set"
+                android:title="@string/menu_item_code_set" />
+            <item
+                android:id="@+id/nav_fw_upgrade"
+                android:icon="@drawable/ic_menu_update"
+                android:title="@string/menu_item_sensor_update" />
+            <item
+                android:id="@+id/nav_version_show"
+                android:icon="@drawable/icon_complete"
+                android:title="@string/menu_item_version_show"/>
+
+            <item
+                android:id="@+id/nav_center_scan"
+                android:icon="@drawable/ic_menu_center_focus"
+                android:title="@string/menu_item_center_scan_setting"/>
+            <item
+                android:id="@+id/nav_illumination"
+                android:icon="@drawable/ic_illmination"
+                android:title="@string/menu_item_illumination_setting"/>
+            <item
+                android:id="@+id/nav_highlight"
+                android:icon="@drawable/ic_highlight"
+                android:title="@string/menu_item_highlight_setting"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_group_debug">
+        <menu>
+            <item
+                android:id="@+id/nav_debug_scan"
+                android:icon="@drawable/ic_menu_debug_scan"
+                android:title="@string/menu_item_debug_continue_scan" />
+            <item
+                android:id="@+id/nav_debug_accuracy"
+                android:icon="@drawable/icon_debug_accuracy"
+                android:title="@string/menu_item_debug_accuracy_scan" />
+            <item
+                android:id="@+id/nav_debug_auto"
+                android:icon="@drawable/icon_check_list"
+                android:title="@string/menu_item_debug_auto_scan" />
+            <item
+                android:id="@+id/nav_debug_upgrade"
+                android:icon="@drawable/ic_menu_debug_update"
+                android:title="@string/menu_item_debug_update" />
+        </menu>
+    </item>
+
+</menu>

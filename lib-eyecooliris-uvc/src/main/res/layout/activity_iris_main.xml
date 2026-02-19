@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="@color/black"
+        app:title="@string/item_iris"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/startIrisBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_touch"
+            android:text="@string/start_iris" />
+
+        <Button
+            android:id="@+id/startBinocularIrisBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_touch"
+            android:text="@string/start_iris_binocular" />
+
+        <Button
+            android:id="@+id/loopTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_touch"
+            android:text="@string/loop_test" />
+
+        <Button
+            android:id="@+id/colorCardDetectBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_touch"
+            android:text="@string/color_card_detection" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

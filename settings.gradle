@@ -1,0 +1,3 @@
+include ':app'
+include ':libscan'
+include ':lib-eyecooliris-uvc'

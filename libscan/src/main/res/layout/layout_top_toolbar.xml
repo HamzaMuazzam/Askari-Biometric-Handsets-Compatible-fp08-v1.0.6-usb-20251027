@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+
+        <FrameLayout
+            android:id="@+id/layout_left_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+
+
+            <ImageButton
+                android:id="@+id/btn_htb_left"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="@dimen/toolbar_left_width"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/iv_left_red_point"
+                android:layout_width="@dimen/toolbar_point_size"
+                android:layout_height="@dimen/toolbar_point_size"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:visibility="invisible"
+                android:src="@drawable/icon_red_point" />
+
+            <ImageView
+                android:id="@+id/iv_left_state_icon"
+                android:layout_width="@dimen/toolbar_state_size"
+                android:layout_height="@dimen/toolbar_state_size"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="5dp"
+                android:visibility="invisible"
+                android:src="@drawable/icon_orange_state" />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_htb_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:text="@string/common_title"
+            android:textColor="@color/darkgray"
+            android:textSize="@dimen/toolbar_title_text_size"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/btn_htb_right"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/toolbar_right_width"
+            android:layout_height="@dimen/toolbar_right_height"
+            android:layout_gravity="right"
+            android:scaleType="centerCrop"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_gray" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general color -->
+    <color name="general_bg">#EFF2F1</color>
+    <color name="general_floral_white">#F3F0E9</color><!-- FloralWhite -->
+    <color name="general_red">#E14246</color>	<!-- red with some orange-->
+    <color name="general_basic">#01BEAA</color>
+    <color name="general_basic_h">#01A291</color>
+    <color name="general_darkred">#B43538</color>
+    <color name="general_green">#19B295</color>	<!-- light green-->
+    <color name="general_gray">#687586</color> <!-- gray -->
+    <color name="general_bg_white">#f9f9f9</color>
+
+    <color name="general_actionbar_bg">#ffffffff</color>
+    <color name="app_main_blue">#00cafc</color>
+    <color name="bg_gray">#f2f2f7</color>
+    <color name="pager_title_bg_selected">#e5faff</color>
+    <color name="pager_title_text_selected">#00cafc</color>
+    <color name="line_gray">#eeeeee</color>
+
+    <color name="btn_normal_blue">#1296db</color>
+    <color name="btn_pressed_blue">#2942d1</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="darkblue">#ff00008b</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="darkgray">#ff333333</color>
+    <color name="lightgray">#ffe6e6e6</color>
+    <color name="orange">#ffff8830</color>
+    <color name="gray">#808080</color>
+    <color name="brown">#ff544434</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#CC000000</color>
+    <color name="twenty_percent_black">#33000000</color>
+    <color name="five_percent_black">#0D000000</color>
+    <color name="twenty_percent_white">#80FFFFFF</color>
+    <color name="blackgray">#363636</color>	<!-- BlackGray -->
+    <color name="skyblue">#FF00BFFF</color>
+    <color name="title_blue">#007aff</color>
+
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/white</color>
+</resources>

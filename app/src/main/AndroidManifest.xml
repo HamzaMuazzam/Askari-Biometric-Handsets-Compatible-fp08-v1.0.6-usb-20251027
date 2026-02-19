@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.usb.host" android:required="true"/>
+    <uses-feature android:name="android.hardware.usb.accessory" />
+    <uses-permission android:name="android.permission.LAUNCH_APP" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/midx"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:name=".App"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".fingerprint.HowToUseActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".fingerprint.FingerPrintActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".fingerprint.FingerPrintWithDBActivity"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".qrbarcode.ScanActivity"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".uhf.UhfActivity"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".facepass.ScanFaceActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".facepass.camera.CameraActivity"
+            android:screenOrientation="landscape"/>
+
+        <meta-data
+            android:name="ScopedStorage"
+            android:value="true" />
+    </application>
+
+    <!--    Android 11 use camera，AndroidManifest.xm add the code：-->
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE">
+
+            </action>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE">
+
+            </action>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+</manifest>

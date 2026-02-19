@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--iris-->
+    <string name="item_iris">虹膜识别</string>
+    <string name="start_iris">虹膜采集</string>
+    <string name="start_102_iris">102虹膜采集</string>
+    <string name="start_iris_binocular">虹膜双目采集</string>
+    <string name="enroll">注册</string>
+    <string name="verify">认证</string>
+    <string name="open_camera">打开摄像头</string>
+    <string name="close_camera">关闭摄像头</string>
+    <string name="open_light">开灯</string>
+    <string name="close_light">关灯</string>
+    <string name="capture">抓怕</string>
+    <string name="capture_success">抓拍成功</string>
+    <string name="acquire_image">获取图像</string>
+    <string name="quality_score">质量分数</string>
+    <string name="cancel">取消</string>
+    <string name="enroll_success">注册成功</string>
+    <string name="enroll_failed">注册失败</string>
+    <string name="verify_success">认证成功</string>
+    <string name="verify_failed">认证失败</string>
+    <string name="enroll_progress">注册进度</string>
+    <string name="acquire_success">获取图像成功</string>
+    <string name="acquire_failed">获取图像失败</string>
+    <string name="too_closer">太近</string>
+    <string name="too_far">太远</string>
+    <string name="keep_away">请向后远离一点</string>
+    <string name="be_closer">请向前靠近一点</string>
+    <string name="no_iris_detected">未检测到虹膜</string>
+    <string name="iris_location_failed">定位失败</string>
+    <string name="iris_pool_quality">质量差</string>
+    <string name="open_eyes_wide">请睁大眼睛</string>
+    <string name="verifying">认证中...</string>
+    <string name="not_enroll">未注册虹膜，请先注册虹膜</string>
+    <string name="text_auth_success">激活成功</string>
+    <string name="text_auth_fail">激活失败</string>
+    <string name="text_mirror">镜像</string>
+    <string name="text_flip">反转</string>
+    <string name="text_split">拆分</string>
+    <string name="focal_length">焦距</string>
+    <string name="cm_25">25cm</string>
+    <string name="cm_30">30cm</string>
+    <string name="loop_test">循环测试</string>
+    <string name="color_card_detection">色卡检测</string>
+    <string name="dirty_spot_detection">脏点检测</string>
+    <string name="start_test">开始测试</string>
+    <string name="exit">退出</string>
+
+</resources>

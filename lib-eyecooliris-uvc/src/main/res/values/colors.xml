@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- basic color -->
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="darkblue">#ff00008b</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="darkgray">#ff333333</color>
+    <color name="lightgray">#ffe6e6e6</color>
+    <color name="orange">#ffff8830</color>
+    <color name="gray">#808080</color>
+    <color name="brown">#ff544434</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#CC000000</color>
+    <color name="twenty_percent_black">#33000000</color>
+    <color name="five_percent_black">#0D000000</color>
+    <color name="twenty_percent_white">#80FFFFFF</color>
+    <color name="blackgray">#363636</color>	<!-- BlackGray -->
+    <color name="skyblue">#FF00BFFF</color>
+    <color name="title_blue">#007aff</color>
+    <!--通用背景色-->
+    <color name="common_bg">@color/white</color>
+    <!--通用触摸背景色-->
+    <color name="common_touch_bg">#E3E3E3</color>
+    <color name="app_background">#F5F9FF</color>
+
+
+</resources>

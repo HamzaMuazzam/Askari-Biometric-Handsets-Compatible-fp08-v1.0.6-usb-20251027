@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.VersionShowActivity"
+    android:orientation="vertical">
+
+    <com.dawn.java.ui.widget.TopToolbar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mainTitle="@string/menu_item_center_scan_setting"
+        app:srcLeftIcon="@drawable/icon_return" />
+
+    <Switch
+        android:id="@+id/switch_enable"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="@string/menu_item_center_scan_setting"/>
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp">-->
+        <!--<Button-->
+            <!--android:id="@+id/btn_enable"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="@string/common_enable_center_decoding"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/btn_disable"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:text="@string/common_disable_center_decoding"/>-->
+    <!--</LinearLayout>-->
+
+    <Button
+        android:id="@+id/btn_calibration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:background="@drawable/selector_btn_blue"
+        android:text="@string/common_center_decoding_calibration"/>
+
+</LinearLayout>

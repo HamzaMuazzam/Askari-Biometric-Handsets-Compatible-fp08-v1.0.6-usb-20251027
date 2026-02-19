@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopToolbar">
+        <attr name="mainTitle" format="string" />
+        <attr name="srcRightIcon" format="integer" />
+        <attr name="srcLeftIcon" format="integer" />
+    </declare-styleable>
+</resources>

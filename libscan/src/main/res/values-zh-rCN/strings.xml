@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--common-->
+    <string name="common_type">类型</string>
+    <string name="common_time">时间</string>
+    <string name="common_length">长度</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_open">开</string>
+    <string name="common_close">关</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_save_success">保存成功</string>
+    <string name="common_count">次数</string>
+    <string name="common_camera_sound_on">开启声音</string>
+    <string name="common_save_error_img">保存误码图片</string>
+    <string name="common_title">标题</string>
+    <string name="common_delay">延时</string>
+    <string name="common_scan">扫码</string>
+
+    <string name="common_enable_center_decoding">开启中心解码</string>
+    <string name="common_disable_center_decoding">关闭中心解码</string>
+    <string name="common_center_decoding_calibration">中心解码校准</string>
+
+    <!--Dialog-->
+    <string name="dialog_is_clear_scan_result">清空扫码结果?</string>
+    <string name="dialog_clear_result_complete">已清空</string>
+    <string name="dialog_please_enter_completely">请输入完整</string>
+    <string name="dialog_is_delete_this_item">删除该测试项?</string>
+    <string name="dialog_delete_complete">已删除</string>
+    <string name="dialog_please_wait">请等待</string>
+
+    <!--update-->
+    <string name="update_unknown_version">未知版本</string>
+    <string name="update_choose_fw_first">请先选择固件</string>
+    <string name="update_failure">无法升级</string>
+    <string name="update_success">升级成功</string>
+    <string name="update_stop">停止升级</string>
+    <string name="update_upgrading">升级中</string>
+    <string name="update_wait_update_finish">请等待升级结束...</string>
+    <string name="update_choose_file">选择文件</string>
+    <string name="update_cur_version">当前版本</string>
+    <string name="update_version_fail">固件文件与模组不匹配</string>
+
+
+    <!--code-->
+    <string name="set_code_1d">一维码</string>
+    <string name="set_code_2d">二维码</string>
+    <string name="set_code_ocr">OCR</string>
+    <string name="set_code_other">其他</string>
+
+    <string name="code_enable">使能</string>
+
+
+    <!--debug-->
+    <string name="debug_camera_continuous">连续扫描</string>
+    <string name="debug_first_scan_result">第一次扫码结果</string>
+    <string name="debug_cur_scan_result">当前扫码结果</string>
+    <string name="debug_add_test_item">请添加测试项</string>
+    <string name="debug_start_test">开始测试</string>
+
+    <string name="debug_scan_error">误码: </string>
+    <string name="debug_scan_miss">漏码: </string>
+    <string name="debug_scan_spacing">扫码间隔: </string>
+    <string name="debug_scan_count">扫码次数: </string>
+    <string name="debug_scan_test_time">测试用时: </string>
+    <string name="debug_set_test_time">设置测试时间: </string>
+
+    <!--menu-->
+    <string name="menu_group_function">功能</string>
+    <string name="menu_group_setting">设置</string>
+    <string name="menu_group_debug">测试</string>
+
+    <string name="menu_item_batch_scan">批量扫码</string>
+    <string name="menu_item_last_image">上一张解码图片</string>
+    <string name="menu_item_debug_continue_scan">烤机测试</string>
+    <string name="menu_item_debug_accuracy_scan">扫码准确率测试</string>
+    <string name="menu_item_debug_auto_scan">自动化测试</string>
+    <string name="menu_item_debug_update">升级测试</string>
+    <string name="menu_item_sensor_update">固件升级</string>
+    <string name="menu_item_code_set">码制设置</string>
+    <string name="menu_item_version_show">版本信息</string>
+    <string name="menu_item_image">图片</string>
+    <string name="menu_item_center_scan_setting">中心区域解码设置</string>
+    <string name="menu_item_illumination_setting">补光灯设置</string>
+    <string name="menu_item_illumination_enable">补光灯开关</string>
+    <string name="menu_item_effect_enable">效果开关</string>
+    <string name="menu_item_highlight_setting">高爆设置</string>
+    <string name="menu_item_highlight_enable">高爆开关</string>
+    <string name="init_prog_title">Please wait</string>
+    <string name="init_prog_start">Initializing</string>
+    <string name="init_prog_fw_upgrade">Upgrade firmware</string>
+
+
+
+</resources>
